@@ -1,25 +1,25 @@
 
 .body{
+    /* resetando as margens do da página */
     margin: 0px;
     padding: 0px;
 }
  
 .container{
-    height: 98vh;
-    display: flex;
-    justify-content: center;
+    height: 98vh; /* fixando a página, sem rolamento */
+    display: flex; /* tornando flexível */
+    justify-content: center; /* ajustando e centralizando */
     align-items: center;
-   background-color:darkblue;
-   background-image: url(../img/campo\ fortaleza.jpeg);
+   background-image: url(../img/campo\ fortaleza.jpeg);/* imagem de fundo */
 }
 #tit-login, .link{
+    /* cor e fonte */
     color: #2762A4;
     font-family:sans-serif;
 }
 .container-login{
-   min-height: 500px;
+    /* estilizando e alinhando a área geral do formulário */
     display: flex;
-    box-sizing: border-box;
     flex-direction: column;
     align-items: center;
     padding: 30px;
@@ -37,12 +37,14 @@
 }
  
 .input-login{
+    /* áreas de texto  */
     width: 100%;
     padding: 10px;
     border: unset;
     outline: none;
 }
 .input-border{
+    /* estilização da linha do input */
     width: 100%;
     height: 2px;
     background-color: #D22909;
@@ -50,16 +52,19 @@
 }
  
 .button-logar{
-    width: 100%;    
+    /* estilizando o boão principal de logar */
+    width: 100%;
     height: 40px;
     border-radius: 5px;
+    background-color: #2762A4;
+    font-weight: bold;
+    color: white;
+    border: unset;
 }
 .link{
+    /* estilizando e centralizando os links para as otras páginas */
     text-decoration: none;
     margin-top: 10px;
     display: flex;
     align-items: center;
 }
-/* .cadastrar{
-    margin-left: 80px;
-} */
