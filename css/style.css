@@ -1,0 +1,65 @@
+
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.container{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color:darkblue;
+   background-image: url(../img/campo\ fortaleza.jpeg);
+}
+#tit-login, .link{
+    color: #2762A4;
+    font-family:sans-serif;
+}
+.container-login{
+   min-height: 500px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+ 
+.formulario, .recuperar-senha{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    width: 100%;
+    align-items: center;
+}
+ 
+.input-login{
+    width: 100%;
+    padding: 10px;
+    border: unset;
+    outline: none;
+}
+.input-border{
+    width: 100%;
+    height: 2px;
+    background-color: #D22909;
+    margin-bottom: 30px;
+}
+ 
+.button-logar{
+    width: 100%;    
+    height: 40px;
+    border-radius: 5px;
+}
+.link{
+    text-decoration: none;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+/* .cadastrar{
+    margin-left: 80px;
+} */
