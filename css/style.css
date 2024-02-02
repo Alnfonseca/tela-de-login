@@ -1,4 +1,6 @@
-
+:root{
+    --display: flex;
+}
 .body{
     /* resetando as margens do da página */
     margin: 0px;
