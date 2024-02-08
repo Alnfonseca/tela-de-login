@@ -1,15 +1,19 @@
 :root{
     --display: flex;
+    --font-family: sans-serif;
+    --flex-direction: column;
+    --align-items: center;
 }
 .body{
     /* resetando as margens do da página */
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
  
 .container{
     height: 98vh; /* fixando a página, sem rolamento */
-    display: flex; /* tornando flexível */
+    display: var(--display); /* tornando flexível */
     justify-content: center; /* ajustando e centralizando */
     align-items: center;
    background-image: url(../img/campo\ fortaleza.jpeg);/* imagem de fundo */
@@ -17,25 +21,25 @@
 #tit-login, .link{
     /* cor e fonte */
     color: #2762A4;
-    font-family:sans-serif;
+   font-family: var(--font-family);
 }
 .container-login{
     /* estilizando e alinhando a área geral do formulário */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: var(--display);
+    flex-direction: var(--flex-direction);
+    align-items: var(--align-items);
     padding: 30px;
     background-color: white;
     border-radius: 8px;
 }
  
 .formulario, .recuperar-senha{
-    display: flex;
-    flex-direction: column;
+    display: var(--display);
+    flex-direction: var(--flex-direction);
 }
 .formulario{
     width: 100%;
-    align-items: center;
+    align-items: var(--align-items);
 }
  
 .input-login{
@@ -67,6 +71,6 @@
     /* estilizando e centralizando os links para as otras páginas */
     text-decoration: none;
     margin-top: 10px;
-    display: flex;
-    align-items: center;
+    display: var(--display);
+    align-items: var(--align-items);
 }
